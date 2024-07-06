@@ -60,8 +60,8 @@ export class LoginComponent {
         (err) => {
           console.error('Error:', err);
           const errorMessage =
-            err.error?.class?.message ||
             err.error?.message ||
+            err.message ||
             'An error occurred while logging in. Please check the credentials and try again!';
           this.messageService.add({
             severity: 'error',

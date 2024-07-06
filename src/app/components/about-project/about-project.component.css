@@ -82,6 +82,9 @@ span {
     display: none;
 }
 
+.p-text {
+    line-height: 1.5rem;
+  }
 
 @media (min-width: 480px) and  (max-width: 915px) {
     p {
