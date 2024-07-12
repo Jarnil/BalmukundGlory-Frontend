@@ -9,6 +9,10 @@ export class HomePageComponent {
   @ViewChild('videoBg') videoBg!: ElementRef;
 
   ngAfterViewInit() {
+    const videoElement = this.videoBg.nativeElement;
     this.videoBg.nativeElement.muted = true;
+    videoElement.play().catch((error: any) => {
+      console.error('Video autoplay failed:', error);
+    });
   }
 }

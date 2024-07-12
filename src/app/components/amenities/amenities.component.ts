@@ -32,6 +32,11 @@ export class AmenitiesComponent {
         numVisible: 3,
         numScroll: 3,
       },
+      {
+        breakpoint: '500px',
+        numVisible: 2,
+        numScroll: 2,
+      },
     ];
   }
 

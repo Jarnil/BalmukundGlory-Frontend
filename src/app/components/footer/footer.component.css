@@ -4,7 +4,7 @@
     background-color: #142D4C;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 140px;
     width: 100%;
     bottom: 0;
   }
@@ -23,17 +23,35 @@
   .copyright {
     font-size: 14px;
     color: #e7e2ff;
+    text-align: center;
   }
   
+  .rera {
+    font-size: 16px;
+  }
+
   img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
 }
 
-
 @media (max-width: 480px) {
   .brand {
     font-size: 20px;
+  }
+
+  .footer {
+    height: 190px;
+  }
+
+  .copyright {
+    width: 80%;
+  }
+
+  .rera {
+    font-size: 16px;
+    text-align: center;
+    word-break: break-all;
   }
 }

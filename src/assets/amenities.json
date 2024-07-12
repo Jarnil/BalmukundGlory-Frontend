@@ -21,8 +21,8 @@
       "image": "assets/images/amenities/garden.png"
     },
     {
-      "name": "Outdoor Games",
-      "image": "assets/images/amenities/outdoor_games.png"
+      "name": "Fire Safety",
+      "image": "assets/images/amenities/fire_safety.png"
     },
     {
       "name": "Kids Play area",
@@ -41,12 +41,20 @@
       "image": "assets/images/amenities/parking.png"
     },
     {
-      "name": "Fire Safety",
-      "image": "assets/images/amenities/fire_safety.png"
+      "name": "Open Auditorium",
+      "image": "assets/images/amenities/auditorium.png"
     },
     {
-      "name": "Ev Charging",
-      "image": "assets/images/amenities/ev_charging.png"
+      "name": "Elevated Entry",
+      "image": "assets/images/amenities/entrance.png"
+    },
+    {
+      "name": "CCTV Surveillance",
+      "image": "assets/images/amenities/cctv.png"
+    },
+    {
+      "name": "Solar Provision",
+      "image": "assets/images/amenities/solar.png"
     },
     {
       "name": "Wifi",

@@ -36,7 +36,6 @@
  img {
   aspect-ratio: 16/9;
   width: 150px;
-  /* object-fit: cover; */
   object-fit: contain;
  }
 
@@ -49,7 +48,7 @@ a {
   text-decoration: none;
   color:  #3C4142;
   cursor: pointer;
-  font-size: 2.px;
+  font-size: 16px;
 }
 
 .sidebar-button {

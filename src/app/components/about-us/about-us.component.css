@@ -6,12 +6,6 @@ h1 {
   width: 280px;
   color: #142D4C
 }
-/* img {
-  width: 100%;
-  height: 100%;
-  aspect-ratio: 3/2;
-  object-fit: contain;
-} */
 
 .about-section {
   display: flex;
@@ -132,17 +126,12 @@ background-color: #142D4C;
 
 @media (max-width: 480px) {
   .about-us {
-    padding: 50px 10px 30px;
+    padding: 50px 0px 30px;
   }
 
   .logo {
     width: 80%;
   }
-
-  /* .flip-card {
-    width: 80%;
-    height: 400px;
-  } */
 
   .card-container {
     width: 100%;
